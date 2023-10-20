@@ -19,3 +19,4 @@ with open('data.csv', 'w', newline='') as csvfile:
         csvwriter.writerow([time, values["1. open"], values["2. high"], values["3. low"], values["4. close"], values["5. volume"]])
 
 print("Data saved to data.csv")
+print(data)
